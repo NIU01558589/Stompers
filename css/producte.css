@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7c7c7c;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding-left:30px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    padding-top: 10px;
+    background-color: #94343F;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav {
+    /*background-color: #52f2b7;*/
+    left: 0;
+    right: 0;
+    top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 5%;
+    height: 100px;
+    background-color: #94343F;
+}
+
+nav img {
+    margin-top: 10px;
+}
+
+nav .menu {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+nav .menu li {
+    list-style-type: none;
+}
+
+nav .menu a{
+    display: block;
+    color: #fcfcfc;
+    text-align:center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menuEffect:hover {
+    border-bottom: 4px solid #1d7cfa;
+    color: rgb(162 214 255)
+}
+
+.navigation .btnAccounts {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.navigation .btnAccounts:hover {
+    background: #fff;
+    color: #162938;
+}
+
+/*----submenu--------*/
+
+nav#subnav {
+    /*background-color: #52f2b7;*/
+    left: 0;
+    right: 0;
+    top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 5%;
+    height: 100px;
+    background-color: black;
+}
+
+nav h1, h2 {
+    color: red;
+}
+
+h1 {
+    color: white
+}
+/*
+nav .button_buy {
+    color: red;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center ;
+}
+
+nav .button_buy:hover {
+    border-bottom: 4px solid #f8f8f8;
+    color: rgb(212, 212, 212)
+}
+*/
+
+/* Estilos para la caja de cantidad */
+.contador_items {
+    width: 50px; /* Ajusta el ancho según sea necesario */
+    margin-right: 10px; /* Ajusta el espacio entre la caja de cantidad y el botón */
+    padding: 5px; /* Ajusta el espacio interno de la caja de cantidad */
+    font-size: 16px; /* Tamaño del texto */
+    text-align: center; /* Centra el texto en la caja */
+}
+
+/* Estilos para el botón de submit */
+.button_buy {
+    color: red;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px; /* Ajusta el espacio interno del botón */
+    cursor: pointer;
+}
+
+.button_buy:hover {
+    border-bottom: 4px solid #f8f8f8;
+    color: rgb(212, 212, 212);
+}
+
+
+#centrado_left {
+    float: left;
+    justify-self: left;
+}
+
+
+/*----CARROUSEL--------*/
+
+.img {
+    width: 960px;
+    height: 600px;
+    background-color: rgb(179, 84, 84);
+    margin-left: 400px;
+    margin-top: 10px
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    background-color: #95343F;
+}
+
+.show-dropdown {
+    display: block;
+}
+
+.opcion-submenu {
+    position: relative;
+}
+
+#mensaje {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #605c5c;
+    background-color: #f0f0f0;
+    color: #c74545;
+}
+
+#mensaje h1,p {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/*CART LOGO*/
+
+#text_money {
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.0);
+    padding-top: 75px;
+}
+
+#figura_carrito {
+    display: flex; /* Utiliza flexbox para la disposición */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 50px; /* Establece una altura fija para todos los elementos */
+}
+
+#figura_carrito a {
+    margin-right: 2px; /* Ajusta el espacio entre el icono y el texto, según sea necesario */
+}
+
+.cart-count {
+    background-color: #000000; /* Color de fondo del número */
+    color: #ffffff; /* Color del texto */
+    padding: 2px 5px; /* Espaciado interno */
+    border-radius: 50%; /* Bordes redondeados para un aspecto más agradable */
+    font-size: 12px; /* Tamaño del texto */
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* Estilos para la barra de navegación */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: url('../img/mclarenRegistre2.jpg');
+    /*background-position: center right;*/
+    background-size: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    padding-left: 840px;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-left: 890px;
+    color: #ffffff;
+}
+
+a img {
+    padding-left: 790px;
+    padding-bottom: 20px;
+}

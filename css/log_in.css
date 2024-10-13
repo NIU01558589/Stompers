@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#contenidor{
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+}
+#contenidor div{
+    padding-top: 0;
+    padding-right: 0;
+    text-align: center;
+    height: 100%;
+}
+
+body{
+    background-color: #000000;
+}
+
+form h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(183, 41, 41);
+    padding-bottom: 20px;
+}
+
+#color_fondo {
+    background: #000000;
+}
+
+.style_form {
+    padding: 20px;
+}
+
+label, input {
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    color:aliceblue
+}
+
+form{
+    flex-direction: column;
+    align-self: center;
+}
+
+::placeholder{ /*pseudo elemento, aplicamos estilo a las letritas de dentro dentro de los  inputs del form */
+    color: rgb(183, 41, 41);
+    font-weight: bold;
+}
+
+.box {
+    background-color: #333;
+    border-radius: 12px;
+    padding: 7px;
+    margin: 20px;
+    height: 100%;
+}
+
+.button-submit-log-in{
+    background-color: #333;
+    color: rgb(183, 41, 41);
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 7px;
+    margin: 5px;
+    height: 100%;
+    width: 240px;
+}
+
+#enllac {
+    list-style-type: none;
+    color: rgb(183, 41, 41);
+    margin-top: 1000px;
+    font-family: 'Oswald', sans-serif;
+}
+
+div a img {
+    margin-bottom: 50%;
+    margin-top: 35%;
+    width: 360px;
+}
+
+div form {
+    margin-top: 30%;
+}
+
+#gradient {
+    background: rgb(183, 41, 41);
+    background: linear-gradient(0deg, rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url('../img/wallpaper-mercedes.gif');
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
